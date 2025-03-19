@@ -8,7 +8,7 @@ The supplemental material can be viewed in its compiled form here: https://peter
 
 This repository contains three main folders:
 
-- **AvidaMT-VM: Contains the files necessary to build a Singularity Vagrant Box containing AvidaMT and its dependencies.
+- **AvidaMT-VM**: Contains the files necessary to build a Singularity Vagrant Box containing AvidaMT and its dependencies.
 - **AnalysisScripts**: Contains all R scripts used to analyze experiment data and generate figures.
 - **SupplementalMaterials**: Holds the source files for the supplemental material, but the material itself is best viewed compiled: https://peterlconlin.github.io/entrenchment/index.html
 
