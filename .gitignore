@@ -49,17 +49,19 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+
+
 ### R.Bookdown Stack ###
 # R package: bookdown caching files
 /*_files/
 
 
+
 ### Vagrant ###
 # General
 .vagrant/
+*.box
 
 # Log files (if you are creating logs in debug mode, uncomment this)
-# *.log
+*.log
 
-### Vagrant Patch ###
-*.box
