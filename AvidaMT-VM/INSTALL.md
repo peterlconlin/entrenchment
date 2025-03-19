@@ -98,7 +98,7 @@ To run AvidaMT, navigate to the folder in which you want the data to appear and 
 $ ./avidaMT.simg [ANY ADDITIONAL ARGUMENTS YOU WANT TO PASS IN GO HERE]
 ```
 
-* To override a value on the command line:
+To override a value on the command line:
 ```bash
 $ ./avidaMT.simg --full.option.name=new_value
 ```
@@ -107,12 +107,12 @@ For example, if you wanted to override per-site mutation rates to be 1%, you mig
 $ ./avidaMT.simg --ea.mutation.site.p=0.01
 ```
 
-* To continue an existing run:
+To continue an existing run:
 ```bash
 ./avidaMT.simg -l <path_to_checkpoint_file>/checkpoint-1000000.xml.gz
 ```
 
-* To perform further analyses, load the checkpoint file and then run an analysis tool. This example also loads a line of descent file which can be analyzed.
+To perform further analyses, load the checkpoint file and then run an analysis tool. This example also loads a line of descent file which can be analyzed.
 ```bash
 ./avidaMT.simg -l <path_to_checkpoint_file>/checkpoint-1000000.xml.gz --analyze lod_fitness --ea.analysis.input.filename <path_to_checkpoint_file>/lod-1000000.xml.gz
 ```
