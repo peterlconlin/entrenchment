@@ -93,9 +93,9 @@ vagrant@vagrant:~$ scp avidaMT.simg YOUR_USERNAME@YOUR_SERVER_ADDRESS:
 
 ## Using AvidaMT
 
-To run AvidaMT, navigate to the folder in which you want the data to appear and execute the SIMG file.  
+To run AvidaMT, navigate to the folder in which you want the data to appear and execute the SIMG file with:  
 ```bash
-$ ./avidaMT.simg [ANY ADDITIONAL ARGUMENTS YOU WANT TO PASS IN GO HERE]
+$ ./avidaMT.simg
 ```
 
 To override a value on the command line:
