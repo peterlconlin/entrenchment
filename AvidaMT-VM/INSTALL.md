@@ -80,12 +80,17 @@ vagrant@vagrant:~$ git init
 vagrant@vagrant:~$ git clone https://github.com/YOUR_USERNAME/entrenchment.git
 ```
 
-7. Build your SIMG file. This is a slow process and is best started and left to run instead of trying to use your computer while it's building.
+7. Navigate to the AvidaMT-VM folder.
+```bash
+vagrant@vagrant:~$ cd AvidaMT-VM
+```
+
+8. Build your SIMG file. This is a slow process and is best started and left to run instead of trying to use your computer while it's building.
 ```bash
 vagrant@vagrant:~$ sudo singularity build avidaMT.simg entrenchment_recipe
 ```
 
-8. Move your SIMG file to the high performance computing cluster you're using. Be sure to edit the server location with your information.
+9. Move your SIMG file to the high performance computing cluster you're using. Be sure to edit the server location with your information.
 ```bash
 vagrant@vagrant:~$ scp avidaMT.simg YOUR_USERNAME@YOUR_SERVER_ADDRESS:
 ```
