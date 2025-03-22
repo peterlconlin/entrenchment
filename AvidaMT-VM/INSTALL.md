@@ -18,7 +18,7 @@ AvidaMT requires a number of legacy dependencies and configuration with administ
 
 Get a copy of AvidaMT by going to [the AvidaMT repository on GitHub](https://github.com/kgskocelas/AvidaMT.git) and clicking the "Fork" button in the upper righthand corner.
 
-On your fork, you can find the configuration file at AvidaMT/etc/major_transitions.cfg. Edit it as desired with the parameters for your experiment.
+On your fork, you can find the configuration file at /etc/major_transitions.cfg. Edit it as desired with the parameters for your experiment.
 
 Click "commit changes."
 
@@ -26,7 +26,7 @@ Click "commit changes."
 
 1. Get a copy of the AvidaMT Singularity Recipe by clicking the "Fork" button in the upper righthand corner of this current repository (the one that you are reading this document in).
 
-2. On your fork, open AvidaMT-VM/entrenchment_recipe. On line 63, replace "kgskocelas" in the hyperlink with your GitHub username so that it directs to your AvidaMT software fork from Step 1.
+2. On your fork, open /AvidaMT-VM/entrenchment_recipe. On line 63, replace "kgskocelas" in the hyperlink with your GitHub username so that it directs to your AvidaMT software fork from Step 1.
 
 3. Click "commit changes."
 
