@@ -29,7 +29,7 @@ AvidaMT requires a number of legacy dependencies and configuration with administ
 
 ### How to Make and Use Your AvidaMT Singularity Vagrant Box
 
-Step-by-step directions for making and using your AvidaMT Singularity Vagrant Box are available at https://github.com/peterlconlin/entrenchment/AvidaMT-VM/INSTALL.md
+Step-by-step directions for making and using your AvidaMT Singularity Vagrant Box are available at: https://github.com/peterlconlin/entrenchment/tree/main/AvidaMT-VM
 
 
 ## DOI for Supplemental Material
