@@ -82,7 +82,7 @@ vagrant@vagrant:~$ git clone https://github.com/YOUR_USERNAME/entrenchment.git
 
 7. Navigate to the AvidaMT-VM folder.
 ```bash
-vagrant@vagrant:~$ cd AvidaMT-VM
+vagrant@vagrant:~$ cd entrenchment/AvidaMT-VM/
 ```
 
 8. Build your SIMG file. This is a slow process and is best started and left to run instead of trying to use your computer while it's building.
