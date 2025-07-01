@@ -1,3 +1,0 @@
-Placeholder file used to create this folder on GitHub (git ignores empty folders automatically). 
-
-Peter - please delete this txt file when you upload the files that actually belong in this folder.
